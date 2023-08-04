@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <link rel="stylesheet" href="survey form.css">
+    <script>
+{
+    alert('This is not an interactive page and it is made using only Html and Css no js');
+}
+</script>
+</head>
+<body>
+    <div class="fullCard" id="thumbnail">
+          <h1 id="title">Looking for developers</h1>     
+            <hr>
+      <main>
+          <form id="survey-form" onsubmit="return validateForm()">
+              <label for="name" id="name-label">Name: </label>
+              <input type="text" id="name" name="name" placeholder="your name .." required /><br>
+              <label for="email" id="email-label">Email: </label>
+              <input type="text" id="email" name="email" placeholder="Your email.." required /><br>
+              <label for="Phone number" id="number-label">Phone Number:</label>
+              <input type="number" id="number" name="number" placeholder="your number.." required /><br>
+               <label for="interest">Interested In:</label>
+<select id="dropdown" name="interest">
+  <option value="Web design">Web design</option>
+  <option value="front end development">front end development</option>
+  <option value="backend developement">backend developement</option>
+  <option value="software developement">software developement</option>
+</select> <br>
+<label for="skill">Skills you have:</label><br>
+<input type="checkbox" id="Html" name="html" value="Boat">
+<label for="html">Html</label><br> 
+<input type="checkbox" id="css" name="css" value="Bike">
+<label for="css"> css</label><br>
+<input type="checkbox" id="javascript" name="jaavascript" value="Car">
+<label for="js">JavaScript</label><br>
+<input type="checkbox" id="php" name="php" value="Boat">
+<label for="php">Php</label><br> 
+<input type="checkbox" id="mysql" name="mysql" value="Boat">
+<label for="mysql">MySql</label><br> 
+<input type="checkbox" id="python" name="python" value="Boat">
+<label for="python">Python</label><br>
+<input type="checkbox" id="java" name="java" value="Boat">
+<label for="java">Java</label><br> 
+ <input type="checkbox" id="c" name="c" value="Boat">
+<label for="c">C/c++</label><br> 
+<label for="employement">Currently you are:</label><br>
+ <input type="radio" id="employed" name="employment" value="male">
+<label for="male">Employed</label><br>
+<input type="radio" id="unemployed" name="unemployed" value="female">
+<label for="female">Unemployed</label><br>
+ <label for="skills">Other skills you have:</label>
+ <textarea id="skill" name="skill" rows="6" cols="20">
+Write down the skills you have other than above ones.
+</textarea> <br>
+<div id="button">
+<button type="submit" form="form1" value="Submit" id="submit">Submit</button></div>
+    </form><br>
+      </main><br>
+</div>
+</body>
+</html>
